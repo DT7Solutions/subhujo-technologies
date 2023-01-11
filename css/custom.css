@@ -13,3 +13,9 @@ section.section {
     background-color: #3079BE!important;
     color:white!important;
 }
+
+@media (max-width: 991px){
+.custom-img-about {
+    max-width: 45%;
+}
+}
