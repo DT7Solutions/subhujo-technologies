@@ -1,0 +1,15 @@
+section.section {
+    margin: 0px 0;
+}
+.custom-img-about {
+    right: 0;
+    top: 12%;
+}
+
+.google-map{
+    margin: 0 0px;
+}
+.dropdown-item:hover{
+    background-color: #3079BE!important;
+    color:white!important;
+}
