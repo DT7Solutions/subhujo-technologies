@@ -3308,7 +3308,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	content: "\f053";
 	position: relative;
 	left: -1px;
-	top: -1px;
+	top: 1px;
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -3323,7 +3323,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	content: "\f054";
 	position: relative;
 	left: 1px;
-	top: -1px;
+	top: 1px;
 }
 
 .owl-carousel.stage-margin .owl-stage-outer {
@@ -9272,7 +9272,7 @@ html.lightbox-opened.sticky-header-active #header .header-body {
 .list.list-icons.list-icons-style-3 li > [class*="fa-"]:first-child,
 .list.list-icons.list-icons-style-3 li > .icons:first-child, .list.list-icons.list-icons-style-3 li a:first-child > [class*="fa-"]:first-child,
 .list.list-icons.list-icons-style-3 li a:first-child > .icons:first-child {
-	color: #FFF;
+	color: #FFF!important;
 	border-radius: 50%;
 	width: 25px;
 	height: 25px;
