@@ -10054,7 +10054,7 @@ a.text-light:focus, a.text-light:hover {
 
 /* #Footer */
 #footer {
-	background: #212529;
+	background: #f2f2f2;
 	border-top: 4px solid #212529;
 	font-size: 0.9em;
 	/* margin-top: 50px; changed */
@@ -10089,7 +10089,7 @@ a.text-light:focus, a.text-light:hover {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-	color: #FFF;
+	color:#030708;
 }
 
 #footer a:not(.btn):not(.no-footer-css) {
@@ -10099,7 +10099,7 @@ a.text-light:focus, a.text-light:hover {
 
 #footer a:not(.btn):not(.no-footer-css):hover {
 	text-decoration: none;
-	color: #FFF;
+	color: #479eb9;
 }
 
 #footer a:not(.btn):not(.no-footer-css):focus, #footer a:not(.btn):not(.no-footer-css):active {
@@ -10107,7 +10107,7 @@ a.text-light:focus, a.text-light:hover {
 }
 
 #footer a:not(.btn):not(.no-footer-css).text-color-light {
-	color: #FFF !important;
+	color:#777 !important;
 }
 
 #footer a:not(.btn):not(.no-footer-css).text-color-light:hover {
@@ -10400,8 +10400,8 @@ a.text-light:focus, a.text-light:hover {
 }
 
 #footer .footer-copyright.footer-copyright-style-2 {
-	background: #212529;
-	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	background: #f2f2f2;
+	border-top: 1px solid #030708;
 }
 
 #footer .footer-copyright.footer-copyright-border-grey {

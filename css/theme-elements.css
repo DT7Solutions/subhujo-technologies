@@ -8087,7 +8087,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	color: #212529;
+	color: #030708;
 	font-weight: 200;
 	letter-spacing: -.05em;
 	margin: 0;
@@ -17929,7 +17929,7 @@ html.boxed section.video > div:first-child video {
 }
 
 .word-rotator-words[class*="bg-"] {
-	background: #CCC;
+	background: #da315c;
 }
 
 .word-rotator-words[class*="bg-"] b {

@@ -23,3 +23,22 @@ section.section {
     background-color: #3079BE!important;
     color:aliceblue!important;
 }
+.text-color-thick{
+    color:#0c2c41;
+}
+.flip-content p {
+    overflow: hidden;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.flip-content img{
+    margin: 0 0 15px;
+    max-width: 120px;
+    max-height: 70px;
+}
+.bg-high{
+    background-color: #da315c;
+}
