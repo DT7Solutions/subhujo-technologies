@@ -10072,7 +10072,7 @@ a.text-light:focus, a.text-light:hover {
 
 #footer .footer-ribbon:before {
 	border-right: 10px solid #646464;
-	border-top: 16px solid transparent;
+	border-top: 17px solid transparent;
 	content: "";
 	display: block;
 	height: 0;
