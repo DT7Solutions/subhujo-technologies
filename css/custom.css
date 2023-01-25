@@ -24,7 +24,8 @@ section.section {
     color:aliceblue!important;
 }
 .text-color-thick{
-    color:#0c2c41;
+    /* color:#0c2c41; */
+    color:#eb8a3e;
 }
 .flip-content p {
     overflow: hidden;
@@ -41,4 +42,10 @@ section.section {
 }
 .bg-high{
     background-color: #ee8a32!important;
+}
+.bg-high-grey{
+    background-color: #f2f2f2!important;
+}
+.text-brand{
+    color: #eb8a3e!important;
 }

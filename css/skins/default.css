@@ -4683,7 +4683,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav-main nav > ul:not(:hover) > li > a.active {
-		background-color: #3079BE;
+		background-color: #eb8a3e;
 		color: #FFF;
 	}
 
@@ -5256,7 +5256,7 @@ html[dir="rtl"] #header .tip-light:before {
 
 @media (max-width: 991px) {
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a {
-		color: #0088CC;
+		color: #eb8a3e;
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a:active {
@@ -5264,7 +5264,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active {
-		background: #0088CC;
+		background: #eb8a3e;
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active:focus,

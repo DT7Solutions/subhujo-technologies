@@ -3053,24 +3053,24 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .call-to-action.call-to-action-in-footer {
-	padding-top: 70px;
+	/* padding-top: 70px;
 	padding-bottom: 70px;
 	margin-top: 30px;
-	margin-bottom: -50px !important;
+	margin-bottom: -50px !important; */
 }
 
 .call-to-action.call-to-action-in-footer:before {
 	content: "";
 	display: block;
 	position: absolute;
-	border-left: 20px solid transparent;
+	/* border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #FFF;
-	height: 20px;
+	border-top: 20px solid #FFF; */
+	/* height: 20px;
 	width: 20px;
 	top: -5px;
 	left: 50%;
-	margin-left: -20px;
+	margin-left: -20px; */
 }
 
 .call-to-action.no-top-arrow:before {

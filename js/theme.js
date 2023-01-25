@@ -4806,7 +4806,7 @@ window.theme.fn = {
 		horizontalPosition: '50%',
 		offset: 0,
 		parallaxDirection: 'top',
-		parallaxHeight: '180%',
+		parallaxHeight: '100%',
 		parallaxScale: false,
 		parallaxScaleInvert: false,
 		scrollableParallax: false,
