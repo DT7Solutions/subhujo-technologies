@@ -20,7 +20,7 @@ section.section {
 }
 }
 #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a.active {
-    background-color: #3079BE!important;
+    background-color: #eb8a3e!important;
     color:aliceblue!important;
 }
 .text-color-thick{
@@ -49,3 +49,10 @@ section.section {
 .text-brand{
     color: #eb8a3e!important;
 }
+
+
+/* @media (min-width: 992px){
+#header .header-nav-main nav > ul > li:hover > a {
+    background-color: #eb8a3e!important;
+}
+} */
