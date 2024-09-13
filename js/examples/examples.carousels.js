@@ -7,6 +7,7 @@ Theme Version:	9.9.0
 (function( $ ) {
 
 	'use strict';
+	
 
 	/*
 	Carousel
@@ -35,6 +36,7 @@ Theme Version:	9.9.0
 		autoWidth: false,
 		items: 6,
 		rtl: ( $('html').attr('dir') == 'rtl' ) ? true : false
+		
 	});
 
 	/*

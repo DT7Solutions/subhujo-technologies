@@ -1198,7 +1198,7 @@ Theme Version:	9.9.0
 }
 
 [data-plugin-animated-words] {
-	opacity: 0;
+	opacity: 1;
 }
 
 [data-plugin-animated-words].initialized {
@@ -3172,6 +3172,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	position: relative;
 	border: none;
 	perspective: 1000px;
+	min-height: 450px!important;
 }
 
 .flip-card .flip-front,
@@ -3184,6 +3185,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	box-shadow: 0px 0px 44px -10px rgba(0, 0, 0, 0.15);
 	transform-style: preserve-3d;
 	transition: ease transform 500ms;
+	min-height: 450px!important;
 }
 
 .flip-card .flip-front .flip-content,
@@ -13532,10 +13534,10 @@ html.boxed .nav-secondary.sticky-active {
 /* Scroll to Top */
 html .scroll-to-top {
 	transition: opacity 0.3s;
-	background: #404040;
+	background: #eb8a3e;
 	border-radius: 4px 4px 0 0;
 	bottom: 0;
-	color: #FFF;
+	color: white;
 	display: block;
 	height: 9px;
 	opacity: 0;
@@ -13554,7 +13556,7 @@ html .scroll-to-top:hover {
 }
 
 html .scroll-to-top.visible {
-	opacity: 0.75;
+	opacity: 0.7;
 }
 
 html .scroll-to-top span {
@@ -15332,8 +15334,14 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 /* Tables */
-.table td, .table th {
-	border-color: rgba(0, 0, 0, 0.06);
+.table td{
+	/* border-color: rgba(0, 0, 0, 0.06); */
+	color: #777;
+	border:2px solid #030708;
+}
+
+.table th{
+	border: 2px solid #030708;
 }
 
 .table > :not(:first-child) {
@@ -16341,7 +16349,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 /* With Quotes */
 .testimonial.testimonial-with-quotes blockquote:before {
 	color: #777;
-	display: block !important;
+	/* display: block !important; */
 	left: 10px;
 	top: 0;
 	content: "“";

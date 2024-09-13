@@ -18,7 +18,11 @@ section.section {
 .custom-img-about {
     max-width: 45%;
 }
+.margin-mobile{
+    margin-top: 10px!important;
 }
+}
+
 #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a.active {
     background-color: #eb8a3e!important;
     color:aliceblue!important;
@@ -29,9 +33,9 @@ section.section {
 }
 .flip-content p {
     overflow: hidden;
-    text-align: justify;
+    text-align: start;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 7!important;
     -webkit-box-orient: vertical;
 }
 
@@ -55,4 +59,22 @@ section.section {
 #header .header-nav-main nav > ul > li:hover > a {
     background-color: #eb8a3e!important;
 }
+} */
+
+.text-equal{
+    text-align: justify!important;
+}
+
+html .btn-second{
+background-color:  #f26d07!important;
+    border-color:  #f26d07 ;
+    color: #FFF;
+    --color: #f26d07 !important;
+    --hover: #f26d07 !important;
+    --disabled:  #f26d07!important;
+    --active:  #f26d07;
+}
+
+/* .scroll-to-top {
+    display: none !important;
 } */

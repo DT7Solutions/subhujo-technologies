@@ -1215,56 +1215,56 @@ html .btn-check:focus + .btn-primary {
 }
 
 html .btn-secondary {
-	background-color: #e36159;
-	border-color: #e36159 #e36159 #dc372d;
+	background-color: #eb8a3e;
+	border-color: #eb8a3e;
 	color: #FFF;
-	--color: #e36159;
-	--hover: #e9807a;
-	--disabled: #e36159;
-	--active: #dd4238;
+	--color: #eb8a3e;
+	--hover: #FD9E43!important;
+	--disabled: #eb8a3e;
+	--active:  #eb8a3e;
 }
 
 html .btn-secondary:hover,
 html .btn-secondary.hover {
-	border-color: #ea8b85 #ea8b85 #e36159;
+	border-color: #FD9E43 #FD9E43 #FD9E43;
 	color: #FFF;
 }
 
 html .btn-secondary:hover:not(.bg-transparent),
 html .btn-secondary.hover:not(.bg-transparent) {
-	background-color: #e9807a;
+	background-color: #FD9E43;
 }
 
 html .btn-secondary:focus,
 html .btn-secondary.focus {
-	border-color: #dc372d #dc372d #b7281f;
+	border-color: #FD9E43 #FD9E43 #FD9E43;
 	color: #FFF;
 	box-shadow: 0 0 0 3px rgba(227, 97, 89, 0.5);
 }
 
 html .btn-secondary:focus:not(.bg-transparent),
 html .btn-secondary.focus:not(.bg-transparent) {
-	background-color: #dd4238;
+	background-color: #FD9E43;
 }
 
 html .btn-secondary.disabled,
 html .btn-secondary:disabled {
-	border-color: #e36159 #e36159 #dc372d;
+	border-color: #FD9E43 #FD9E43 #FD9E43;
 }
 
 html .btn-secondary.disabled:not(.bg-transparent),
 html .btn-secondary:disabled:not(.bg-transparent) {
-	background-color: #e36159;
+	background-color: #FD9E43;
 }
 
 html .btn-secondary:active,
 html .btn-secondary.active {
-	border-color: #dc372d #dc372d #b7281f !important;
+	border-color: #FD9E43 #FD9E43 #FD9E43 !important;
 }
 
 html .btn-secondary:active:not(.bg-transparent),
 html .btn-secondary.active:not(.bg-transparent) {
-	background-color: #dd4238 !important;
+	background-color: #FD9E43 !important;
 	background-image: none !important;
 }
 
@@ -1276,7 +1276,7 @@ html .btn-secondary-scale-2 {
 
 html .btn-secondary-scale-2:hover,
 html .btn-secondary-scale-2.hover {
-	border-color: #e36159 #e36159 #dc372d;
+	border-color: #FD9E43 #FD9E43 #FD9E43;
 	color: #FFF;
 }
 
@@ -1579,6 +1579,15 @@ html .btn-dark {
 	--hover: #32383e;
 	--disabled: #212529;
 	--active: #101214;
+}
+html .btn-second{
+	background-color:  #f26d07!important;
+		border-color:  #f26d07 ;
+		color: #FFF;
+		--color: #f26d07 !important;
+		--hover: #f26d07 !important;
+		--disabled:  #f26d07!important;
+		--active:  #f26d07;
 }
 
 html .btn-dark:hover,
@@ -4662,16 +4671,16 @@ html[dir="rtl"] #header .tip-light:before {
 
 	#header .header-nav-main nav > ul > li.open > a,
 	#header .header-nav-main nav > ul > li:hover > a {
-		background: #0088CC;
+		background: #eb8a3e;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
-		border-top-color: #0088CC;
+		border-top-color: #eb8a3e;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown.open > a:before,
 	#header .header-nav-main nav > ul > li.dropdown:hover > a:before {
-		border-bottom-color: #0088CC;
+		border-bottom-color: #eb8a3e;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown-mega-signin .dropdown-menu {

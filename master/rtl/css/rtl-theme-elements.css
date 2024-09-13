@@ -13447,6 +13447,7 @@ html .scroll-to-top {
 	min-width: 50px;
 	z-index: 1040;
 	font-size: 0.8em;
+	display: none !important;
 }
 
 html .scroll-to-top:hover {
